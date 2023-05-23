@@ -29,6 +29,7 @@ public class MainActivity2 extends AppCompatActivity{
         rcvSong.setAdapter(adapterSong);
     }
 
+    //Ánh xạ
     private void getWidget(){
         rcvSong = findViewById(R.id.rcvSong);
         listSong = new ArrayList<>();

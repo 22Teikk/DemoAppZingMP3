@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
     Animation animation;
     public static final int REQUEST_CODE_SONG = 123;
     SimpleDateFormat simpleDateFormat = new SimpleDateFormat("mm:ss");
+    //Give and receive data Intent
     ActivityResultLauncher<Intent> arl = registerForActivityResult(
             new ActivityResultContracts.StartActivityForResult(),
             new ActivityResultCallback<ActivityResult>() {
